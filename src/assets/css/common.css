@@ -1,0 +1,38 @@
+html,body,div,nav,ul,li{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .body{
+      min-width: 1100px;
+      overflow: scroll;
+  }
+  ul,li{
+    list-style: none;
+  }
+  html{
+    font: 12px Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  h3{
+    font-size: 36px;
+    font-weight: normal;
+  }
+  .left{
+    float: left;
+  }
+  .right{
+    float: right;
+  }
+  .clear{
+    zoom: 1;
+  }
+  .clear::after{
+    display: block;
+    width:0;
+    content:".";
+    clear: both;
+    visibility: hidden;
+  }
